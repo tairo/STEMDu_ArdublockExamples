@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="160 160 160" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1920">
+<PageBlocks>
+<Block genus-name="stemdu_stop_M3M4" id="869">
+<Location>
+<X>757</X>
+<Y>466</Y>
+</Location>
+<BeforeBlockId>289</BeforeBlockId>
+<AfterBlockId>870</AfterBlockId>
+</Block>
+<Block genus-name="delay" id="870">
+<Location>
+<X>757</X>
+<Y>490</Y>
+</Location>
+<BeforeBlockId>869</BeforeBlockId>
+<AfterBlockId>305</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="871" connector-kind="socket" connector-type="number" init-type="number" label="ミリ秒" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="871">
+<Label>500</Label>
+<Location>
+<X>869</X>
+<Y>493</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="870" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="delay" id="867">
+<Location>
+<X>499</X>
+<Y>328</Y>
+</Location>
+<BeforeBlockId>866</BeforeBlockId>
+<AfterBlockId>299</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="868" connector-kind="socket" connector-type="number" init-type="number" label="ミリ秒" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="868">
+<Label>500</Label>
+<Location>
+<X>611</X>
+<Y>331</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="867" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="stemdu_stop_M3M4" id="866">
+<Location>
+<X>499</X>
+<Y>304</Y>
+</Location>
+<BeforeBlockId>268</BeforeBlockId>
+<AfterBlockId>867</AfterBlockId>
+</Block>
+<Block genus-name="stemdu_move_left_turn_M3M4" id="305">
+<Location>
+<X>757</X>
+<Y>520</Y>
+</Location>
+<BeforeBlockId>870</BeforeBlockId>
+<AfterBlockId>303</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="306" connector-kind="socket" connector-type="number" init-type="number" label="スピード" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="303">
+<Location>
+<X>757</X>
+<Y>550</Y>
+</Location>
+<BeforeBlockId>305</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="304" connector-kind="socket" connector-type="number" init-type="number" label="ミリ秒" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="304">
+<Label>2000</Label>
+<Location>
+<X>869</X>
+<Y>553</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="303" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="306">
+<Label>200</Label>
+<Location>
+<X>921</X>
+<Y>523</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="305" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="stemdu_move_right_turn_M3M4" id="299">
+<Location>
+<X>499</X>
+<Y>358</Y>
+</Location>
+<BeforeBlockId>867</BeforeBlockId>
+<AfterBlockId>301</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="300" connector-kind="socket" connector-type="number" init-type="number" label="スピード" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="301">
+<Location>
+<X>499</X>
+<Y>388</Y>
+</Location>
+<BeforeBlockId>299</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="302" connector-kind="socket" connector-type="number" init-type="number" label="ミリ秒" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="302">
+<Label>2000</Label>
+<Location>
+<X>611</X>
+<Y>391</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="301" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="300">
+<Label>200</Label>
+<Location>
+<X>663</X>
+<Y>361</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="299" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="stemdu_move_left_turn_M3M4" id="573">
+<Location>
+<X>1273</X>
+<Y>705</Y>
+</Location>
+<BeforeBlockId>587</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="574" connector-kind="socket" connector-type="number" init-type="number" label="スピード" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="574">
+<Label>50</Label>
+<Location>
+<X>1437</X>
+<Y>708</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="573" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="stemdu_move_right_turn_M3M4" id="600">
+<Location>
+<X>1272</X>
+<Y>833</Y>
+</Location>
+<Comment>
+<Text>ボール探索</Text>
+<Location>
+<X>1474</X>
+<Y>793</Y>
+</Location>
+<BoxSize>
+<Width>150</Width>
+<Height>100</Height>
+</BoxSize>
+<Collapsed/>
+</Comment>
+<BeforeBlockId>602</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="595" connector-kind="socket" connector-type="number" init-type="number" label="スピード" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="595">
+<Label>50</Label>
+<Location>
+<X>1450</X>
+<Y>836</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="600" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="stemdu_move_right_turn_M3M4" id="608">
+<Location>
+<X>1273</X>
+<Y>792</Y>
+</Location>
+<BeforeBlockId>602</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="609" connector-kind="socket" connector-type="number" init-type="number" label="スピード" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="609">
+<Label>50</Label>
+<Location>
+<X>1437</X>
+<Y>795</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="608" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="ifelse" id="602">
+<Location>
+<X>1014</X>
+<Y>756</Y>
+</Location>
+<BeforeBlockId>566</BeforeBlockId>
+<Sockets num-sockets="3">
+<BlockConnector con-block-id="603" connector-kind="socket" connector-type="boolean" init-type="boolean" label="もし" position-type="single"/>
+<BlockConnector con-block-id="608" connector-kind="socket" connector-type="cmd" init-type="cmd" label="なら" position-type="single"/>
+<BlockConnector con-block-id="600" connector-kind="socket" connector-type="cmd" init-type="cmd" label="でなければ" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="less_equal" id="603">
+<Location>
+<X>1276</X>
+<Y>759</Y>
+</Location>
+<Comment>
+<Text>右赤外線センサがボールに反応
+（近い程値が小さくなることに注意）</Text>
+<Location>
+<X>1538</X>
+<Y>719</Y>
+</Location>
+<BoxSize>
+<Width>150</Width>
+<Height>100</Height>
+</BoxSize>
+<Collapsed/>
+</Comment>
+<Plug>
+<BlockConnector con-block-id="602" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="604" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+<BlockConnector con-block-id="605" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="605">
+<Label>pulse_ir2</Label>
+<Location>
+<X>1400</X>
+<Y>762</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="603" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="604">
+<Label>200</Label>
+<Location>
+<X>1286</X>
+<Y>762</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="603" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="stemdu_move_fwd_M3M4" id="598">
+<Location>
+<X>1274</X>
+<Y>664</Y>
+</Location>
+<Comment>
+<Text>2つのパルス赤外線センサが反応したら前進</Text>
+<Location>
+<X>1462</X>
+<Y>624</Y>
+</Location>
+<BoxSize>
+<Width>150</Width>
+<Height>100</Height>
+</BoxSize>
+<Collapsed/>
+</Comment>
+<BeforeBlockId>587</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="599" connector-kind="socket" connector-type="number" init-type="number" label="スピード" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="599">
+<Label>200</Label>
+<Location>
+<X>1438</X>
+<Y>667</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="598" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="ifelse" id="587">
+<Location>
+<X>1015</X>
+<Y>628</Y>
+</Location>
+<BeforeBlockId>566</BeforeBlockId>
+<Sockets num-sockets="3">
+<BlockConnector con-block-id="588" connector-kind="socket" connector-type="boolean" init-type="boolean" label="もし" position-type="single"/>
+<BlockConnector con-block-id="598" connector-kind="socket" connector-type="cmd" init-type="cmd" label="なら" position-type="single"/>
+<BlockConnector con-block-id="573" connector-kind="socket" connector-type="cmd" init-type="cmd" label="でなければ" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="greater_equal" id="588">
+<Location>
+<X>1277</X>
+<Y>631</Y>
+</Location>
+<Comment>
+<Text>右赤外線センサがボールに反応
+（近い程値が小さくなることに注意）</Text>
+<Location>
+<X>1507</X>
+<Y>591</Y>
+</Location>
+<BoxSize>
+<Width>150</Width>
+<Height>100</Height>
+</BoxSize>
+<Collapsed/>
+</Comment>
+<Plug>
+<BlockConnector con-block-id="587" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="589" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+<BlockConnector con-block-id="590" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="590">
+<Label>pulse_ir2</Label>
+<Location>
+<X>1401</X>
+<Y>634</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="588" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="589">
+<Label>200</Label>
+<Location>
+<X>1287</X>
+<Y>634</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="588" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="serial_println" id="262">
+<Location>
+<X>240</X>
+<Y>238</Y>
+</Location>
+<BeforeBlockId>583</BeforeBlockId>
+<AfterBlockId>268</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="264" connector-kind="socket" connector-type="string" init-type="string" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="ifelse" id="268">
+<Location>
+<X>240</X>
+<Y>268</Y>
+</Location>
+<BeforeBlockId>262</BeforeBlockId>
+<Sockets num-sockets="3">
+<BlockConnector con-block-id="269" connector-kind="socket" connector-type="boolean" init-type="boolean" label="もし" position-type="single"/>
+<BlockConnector con-block-id="866" connector-kind="socket" connector-type="cmd" init-type="cmd" label="なら" position-type="single"/>
+<BlockConnector con-block-id="289" connector-kind="socket" connector-type="cmd" init-type="cmd" label="でなければ" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="ifelse" id="289">
+<Location>
+<X>498</X>
+<Y>430</Y>
+</Location>
+<BeforeBlockId>268</BeforeBlockId>
+<Sockets num-sockets="3">
+<BlockConnector con-block-id="290" connector-kind="socket" connector-type="boolean" init-type="boolean" label="もし" position-type="single"/>
+<BlockConnector con-block-id="869" connector-kind="socket" connector-type="cmd" init-type="cmd" label="なら" position-type="single"/>
+<BlockConnector con-block-id="566" connector-kind="socket" connector-type="cmd" init-type="cmd" label="でなければ" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="ifelse" id="566">
+<Location>
+<X>756</X>
+<Y>592</Y>
+</Location>
+<BeforeBlockId>289</BeforeBlockId>
+<Sockets num-sockets="3">
+<BlockConnector con-block-id="567" connector-kind="socket" connector-type="boolean" init-type="boolean" label="もし" position-type="single"/>
+<BlockConnector con-block-id="587" connector-kind="socket" connector-type="cmd" init-type="cmd" label="なら" position-type="single"/>
+<BlockConnector con-block-id="602" connector-kind="socket" connector-type="cmd" init-type="cmd" label="でなければ" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="greater_equal" id="567">
+<Location>
+<X>1018</X>
+<Y>595</Y>
+</Location>
+<Comment>
+<Text>左赤外線センサがボールに反応
+（近い程値が小さくなることに注意）</Text>
+<Location>
+<X>1248</X>
+<Y>555</Y>
+</Location>
+<BoxSize>
+<Width>150</Width>
+<Height>100</Height>
+</BoxSize>
+<Collapsed/>
+</Comment>
+<Plug>
+<BlockConnector con-block-id="566" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="568" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+<BlockConnector con-block-id="569" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="569">
+<Label>pulse_ir1</Label>
+<Location>
+<X>1142</X>
+<Y>598</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="567" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="568">
+<Label>200</Label>
+<Location>
+<X>1028</X>
+<Y>598</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="567" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="less_equal" id="290">
+<Location>
+<X>760</X>
+<Y>433</Y>
+</Location>
+<Comment>
+<Text>右反射センサが反応</Text>
+<Location>
+<X>998</X>
+<Y>393</Y>
+</Location>
+<BoxSize>
+<Width>150</Width>
+<Height>100</Height>
+</BoxSize>
+<Collapsed/>
+</Comment>
+<Plug>
+<BlockConnector con-block-id="289" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="291" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+<BlockConnector con-block-id="292" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="292">
+<Label>ir2</Label>
+<Location>
+<X>884</X>
+<Y>436</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="290" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="291">
+<Label>200</Label>
+<Location>
+<X>770</X>
+<Y>436</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="290" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="less_equal" id="269">
+<Location>
+<X>502</X>
+<Y>271</Y>
+</Location>
+<Comment>
+<Text>左反射センサが反応</Text>
+<Location>
+<X>740</X>
+<Y>231</Y>
+</Location>
+<BoxSize>
+<Width>150</Width>
+<Height>100</Height>
+</BoxSize>
+<Collapsed/>
+</Comment>
+<Plug>
+<BlockConnector con-block-id="268" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="271" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+<BlockConnector con-block-id="270" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="270">
+<Label>ir1</Label>
+<Location>
+<X>626</X>
+<Y>274</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="269" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="271">
+<Label>200</Label>
+<Location>
+<X>512</X>
+<Y>274</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="269" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="glue_sn" id="264">
+<Location>
+<X>418</X>
+<Y>241</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="262" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="265" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="265">
+<Label>pulse_ir1</Label>
+<Location>
+<X>574</X>
+<Y>241</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="264" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="setter_variable_number" id="579">
+<Location>
+<X>240</X>
+<Y>130</Y>
+</Location>
+<BeforeBlockId>275</BeforeBlockId>
+<AfterBlockId>583</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="580" connector-kind="socket" connector-type="number" init-type="number" label="変数" position-type="single"/>
+<BlockConnector con-block-id="581" connector-kind="socket" connector-type="number" init-type="number" label="値" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="setter_variable_number" id="583">
+<Location>
+<X>240</X>
+<Y>184</Y>
+</Location>
+<BeforeBlockId>579</BeforeBlockId>
+<AfterBlockId>262</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="584" connector-kind="socket" connector-type="number" init-type="number" label="変数" position-type="single"/>
+<BlockConnector con-block-id="585" connector-kind="socket" connector-type="number" init-type="number" label="値" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-read-analog" id="585">
+<Label>アナログポート（ピン）</Label>
+<Location>
+<X>452</X>
+<Y>211</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="583" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="586" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="586">
+<Label>4</Label>
+<Location>
+<X>654</X>
+<Y>211</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="585" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="584">
+<Label>pulse_ir2</Label>
+<Location>
+<X>452</X>
+<Y>187</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="583" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pin-read-analog" id="581">
+<Label>アナログポート（ピン）</Label>
+<Location>
+<X>452</X>
+<Y>157</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="579" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="582" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="582">
+<Label>3</Label>
+<Location>
+<X>654</X>
+<Y>157</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="581" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="580">
+<Label>pulse_ir1</Label>
+<Location>
+<X>452</X>
+<Y>133</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="579" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="loop" id="258">
+<Location>
+<X>31</X>
+<Y>14</Y>
+</Location>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="259" connector-kind="socket" connector-type="cmd" init-type="cmd" label="実行" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="setter_variable_number" id="259">
+<Location>
+<X>240</X>
+<Y>22</Y>
+</Location>
+<BeforeBlockId>258</BeforeBlockId>
+<AfterBlockId>275</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="260" connector-kind="socket" connector-type="number" init-type="number" label="変数" position-type="single"/>
+<BlockConnector con-block-id="266" connector-kind="socket" connector-type="number" init-type="number" label="値" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="setter_variable_number" id="275">
+<Location>
+<X>240</X>
+<Y>76</Y>
+</Location>
+<BeforeBlockId>259</BeforeBlockId>
+<AfterBlockId>579</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="276" connector-kind="socket" connector-type="number" init-type="number" label="変数" position-type="single"/>
+<BlockConnector con-block-id="277" connector-kind="socket" connector-type="number" init-type="number" label="値" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-read-analog" id="277">
+<Label>アナログポート（ピン）</Label>
+<Location>
+<X>452</X>
+<Y>103</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="275" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="278" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="278">
+<Label>2</Label>
+<Location>
+<X>654</X>
+<Y>103</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="277" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="276">
+<Label>ir2</Label>
+<Location>
+<X>452</X>
+<Y>79</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="275" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pin-read-analog" id="266">
+<Location>
+<X>452</X>
+<Y>49</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="259" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="267" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="267">
+<Location>
+<X>654</X>
+<Y>49</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="266" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="260">
+<Label>ir1</Label>
+<Location>
+<X>452</X>
+<Y>25</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="259" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>
